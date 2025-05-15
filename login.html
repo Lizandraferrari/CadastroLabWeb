@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout.css">
+    <title>Login</title>
+</head>
+<body>
+    <script src="https://accounts.google.com/gsi/client" async></script>
+    <main>
+        <form action="" method="post">
+            <h1>
+                Faça o login 
+            </h1>
+            <label for="email">
+                E-mail:
+                <input aria-label="Digite seu E-mail" type="email" id="email" placeholder="emaillegal@yahoo.com" required/>
+            </label>   
+
+            <label for="senha1">
+                Senha:
+                <input aria-label="Digite sua Senha" type="password" id="senha1" placeholder="Digite uma senha" required/>
+            </label>   
+            <button aria-label="Faça seu Login por E-mail" type="submit">Login com E-mail</button>
+            
+            <div id="g_id_onload" style="margin-top: -3em;"
+                data-client_id="YOUR_GOOGLE_CLIENT_ID"
+                data-login_uri="https://your.domain/your_login_endpoint"
+                data-auto_prompt="false">
+            </div>
+            <div class="g_id_signin"
+                data-type="standard"
+                data-size="large"
+                data-theme="filled_black"
+                data-text="sign_in_with"
+                data-shape="circle"
+                data-logo_alignment="left">
+            </div>
+
+            <div class="linha">
+                <a href="">Esqueci a senha</a>
+                <a href="cadastro.html">Criar uma conta</a>
+            </div>
+            
+        </form>
+    </main>
+</body>
+</html>

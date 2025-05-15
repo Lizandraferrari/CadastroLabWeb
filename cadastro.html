@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout.css">
+    <title>cadastro</title>
+</head>
+<body>
+    <main>
+        <section>
+            <form method="post" action="">
+                <h1>
+                    Cadastre-se
+                </h1>
+
+                <label for="nome">
+                    Nome Completo:
+                    <input aria-label="Digite o nome completo" type="text" id="nome" placeholder="Frederico Janaína Pereira" required/>
+                </label>
+
+                <label for="cpf">
+                    CPF:
+                    <input aria-label="Digite o CPF" type="text" id="cpf" placeholder="12345678998" required/>
+                </label>   
+
+                <label for="telefone">
+                    Telefone com DDD:
+                    <input aria-label="Digite o Telefone com DDD" type="text" id="telefone" placeholder="1196666666" required/>
+                </label>    
+
+                <label for="endereco">
+                    Endereço:
+                    <input aria-label="Digite o Endereço" type="text" id="endereco" placeholder="Rua Louro José, 123. Pindamonhangaba - SP" required/>
+                </label>    
+
+                <label for="email">
+                    E-mail:
+                    <input aria-label="Digite seu E-mail" type="email" id="email" placeholder="emaillegal@yahoo.com" required/>
+                </label>   
+
+                <div class="linha">
+                    <label for="senha1">
+                        Senha:
+                        <input aria-label="Digite uma Senha" type="password" id="senha1" placeholder="Digite uma senha" required/>
+                    </label>   
+
+                    <label for="senha2">
+                        Repita sua Senha:
+                        <input aria-label="Repita sua senha" type="password" id="senha2" placeholder="Repita sua senha" required/>
+                    </label>
+                </div>
+                
+                <button aria-label="Conclua seu Cadastro" type="submit">Cadastrar</button>
+                <a href="login.html">Já tenho uma conta</a>
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>
